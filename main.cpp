@@ -3,11 +3,14 @@
 bool isPyth(unsigned a, unsigned b, unsigned c);
 
 
+
 int main()
 {
     using u_t = unsigned;
     u_t a=0,b=0,c=0;
     size_t count = 0;
+    std::cin>>c>>b;
+    
 
     while(std::cin>>a)
     {
@@ -30,9 +33,6 @@ int main()
         return 1;
 
     }
-
-
-
 
 }
 
